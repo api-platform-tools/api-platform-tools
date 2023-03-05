@@ -1,0 +1,25 @@
+{
+    "name": "api-platform-tools/api-platform-tools",
+    "description": "Meta package for all api-platform-tools libraries",
+    "type": "metapackage",
+    "require": {
+        "api-platform-tools/data-processor": "*",
+        "api-platform-tools/data-provider": "*",
+        "api-platform-tools/entity-resource-mapper": "*",
+        "api-platform-tools/extended-resource": "*",
+        "api-platform-tools/file-resource": "*",
+        "api-platform-tools/resource-entity-mapper": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "simpletoimplement",
+            "email": "simpletoimplement@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
